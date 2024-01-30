@@ -31,7 +31,7 @@ function Post({ user, postImage, likes, timestamp }) {
           <BookmarkBorderIcon className="postIcon" />
         </div>
       </div>
-      Gefällt {likes} Mal.
+      Gefällt {likes} Mal
     </div>
   );
 }
