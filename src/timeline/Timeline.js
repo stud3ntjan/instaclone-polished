@@ -48,11 +48,11 @@ function Timeline() {
       timestamp: "15h",
     },
     {
-      user: "memelord4",
+      user: "puppetsof4rance",
       postImage:
-        "https://media.assettype.com/afkgaming/import/media/images/55143-08bf98e6a4535406acafc015adf99434.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max",
-      likes: 133346,
-      timestamp: "10h",
+        "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/6/0/9/0/5/8/Steelrising_Header-93b3d9f7ba357ca0.png",
+      likes: 357,
+      timestamp: "1h",
     },
   ]);
   return (
