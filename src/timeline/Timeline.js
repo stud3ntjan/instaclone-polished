@@ -34,11 +34,11 @@ function Timeline() {
       timestamp: "10h",
     },
     {
-      user: "memelord2",
+      user: "IT_student",
       postImage:
-        "https://media.assettype.com/afkgaming/import/media/images/55143-08bf98e6a4535406acafc015adf99434.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max",
-      likes: 133346,
-      timestamp: "10h",
+        "https://i.pinimg.com/736x/72/88/b5/7288b5c821d3c1064643c23de28653ee.jpg",
+      likes: 147,
+      timestamp: "8h",
     },
     {
       user: "memelord3",
