@@ -41,11 +41,11 @@ function Timeline() {
       timestamp: "8h",
     },
     {
-      user: "memelord3",
+      user: "p_the_puppet_slayer",
       postImage:
-        "https://media.assettype.com/afkgaming/import/media/images/55143-08bf98e6a4535406acafc015adf99434.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max",
-      likes: 133346,
-      timestamp: "10h",
+        "https://cdn2.unrealengine.com/lies-of-p-krat-3840x2160-44f889cf0832.png?resize=1&w=1920",
+      likes: 1,
+      timestamp: "15h",
     },
     {
       user: "memelord4",
