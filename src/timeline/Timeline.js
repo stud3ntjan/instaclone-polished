@@ -33,6 +33,27 @@ function Timeline() {
       likes: 133346,
       timestamp: "10h",
     },
+    {
+      user: "memelord2",
+      postImage:
+        "https://media.assettype.com/afkgaming/import/media/images/55143-08bf98e6a4535406acafc015adf99434.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max",
+      likes: 133346,
+      timestamp: "10h",
+    },
+    {
+      user: "memelord3",
+      postImage:
+        "https://media.assettype.com/afkgaming/import/media/images/55143-08bf98e6a4535406acafc015adf99434.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max",
+      likes: 133346,
+      timestamp: "10h",
+    },
+    {
+      user: "memelord4",
+      postImage:
+        "https://media.assettype.com/afkgaming/import/media/images/55143-08bf98e6a4535406acafc015adf99434.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max",
+      likes: 133346,
+      timestamp: "10h",
+    },
   ]);
   return (
     <div className="timeline">
