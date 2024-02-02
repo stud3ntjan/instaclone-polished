@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./FollowButtons.modules.css";
+import btntest from "../timeline/Suggesstions";
 
 function FollowBtn() {
   const [isFollowing, setIsFollowing] = useState(false);
@@ -14,22 +15,14 @@ function FollowBtn() {
 
   if (isFollowing) {
     return (
-      <button
-        className={styles.follow__button}
-        style={{ backgroundColor: "white" }}
-        onClick={onClickUnfollow}
-      >
+      <button className={styles.follow__button} onClick={onClickUnfollow}>
         Gefolgt
       </button>
     );
   }
 
   return (
-    <button
-      className={styles.follow__button}
-      style={{ backgroundColor: "#0095f6" }}
-      onClick={onClickFollow}
-    >
+    <button className={btntest.Suggesstions} onClick={onClickFollow}>
       Folgen
     </button>
   );
