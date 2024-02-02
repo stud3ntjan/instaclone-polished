@@ -19,7 +19,7 @@ function FollowBtn() {
         style={{ backgroundColor: "white" }}
         onClick={onClickUnfollow}
       >
-        Following
+        Gefolgt
       </button>
     );
   }
@@ -30,7 +30,7 @@ function FollowBtn() {
       style={{ backgroundColor: "#0095f6" }}
       onClick={onClickFollow}
     >
-      Follow
+      Folgen
     </button>
   );
 }
