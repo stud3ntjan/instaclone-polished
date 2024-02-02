@@ -1,7 +1,5 @@
 import { useState } from "react";
-import "./FollowButtons.modules.css";
-
-// styles from
+import styles from "./FollowButtons.modules.css";
 
 function FollowBtn() {
   const [isFollowing, setIsFollowing] = useState(false);
@@ -16,14 +14,22 @@ function FollowBtn() {
 
   if (isFollowing) {
     return (
-      <button style={{ backgroundColor: "grey" }} onClick={onClickUnfollow}>
+      <button
+        className={styles.follow__button}
+        style={{ backgroundColor: "white" }}
+        onClick={onClickUnfollow}
+      >
         Following
       </button>
     );
   }
 
   return (
-    <button style={{ backgroundColor: "green" }} onClick={onClickFollow}>
+    <button
+      className={styles.follow__button}
+      style={{ backgroundColor: "#0095f6" }}
+      onClick={onClickFollow}
+    >
       Follow
     </button>
   );

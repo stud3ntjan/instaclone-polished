@@ -18,10 +18,7 @@ function Suggesstions() {
               <span className="relation">Neu auf Instagram</span>
             </div>
           </div>
-          <button className="follow__button">
-            <FollowBtn />
-            Folgen
-          </button>
+          <FollowBtn />
         </div>
 
         <div className="suggestions__username">
@@ -34,7 +31,7 @@ function Suggesstions() {
               <span className="relation">Neu auf Instagram</span>
             </div>
           </div>
-          <button className="follow__button">Folgen</button>
+          <FollowBtn />
         </div>
 
         <div className="suggestions__username">
@@ -47,7 +44,7 @@ function Suggesstions() {
               <span className="relation">Neu auf Instagram</span>
             </div>
           </div>
-          <button className="follow__button">Folgen</button>
+          <FollowBtn />
         </div>
 
         <div className="suggestions__username">
@@ -64,7 +61,7 @@ function Suggesstions() {
               Follow
             </button> */}
           </div>
-          <button className="follow__button">Folgen</button>
+          <FollowBtn />
         </div>
       </div>
     </div>
