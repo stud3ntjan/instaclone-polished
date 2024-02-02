@@ -1,6 +1,7 @@
 import React from "react";
 import "./Suggestions.css";
 import { Avatar } from "@mui/material";
+import FollowBtn from "../buttons/Button";
 
 function Suggesstions() {
   return (
@@ -17,7 +18,10 @@ function Suggesstions() {
               <span className="relation">Neu auf Instagram</span>
             </div>
           </div>
-          <button className="follow__button">Folgen</button>
+          <button className="follow__button">
+            <FollowBtn />
+            Folgen
+          </button>
         </div>
 
         <div className="suggestions__username">
@@ -55,6 +59,10 @@ function Suggesstions() {
               <span className="username">crypto$bro$</span>
               <span className="relation">Neu auf Instagram</span>
             </div>
+
+            {/* <button text={"Follow"} onClick={onClickFollow}>
+              Follow
+            </button> */}
           </div>
           <button className="follow__button">Folgen</button>
         </div>
